@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------------------
+# NO STAFF DATA IN THIS REPO.
+#
+# Every input and output of these scripts carries personal data: names, UPNs,
+# job titles, managers, device serial numbers, sign-in history, and offboarding
+# notes. One export is materially worse than the rest - the passwordless
+# "not yet enabled" group is a list of accounts without phishing-resistant
+# authentication, which is a target list. None of it belongs in source control.
+#
+# The scripts read these from the working directory at runtime. Keep them beside
+# the scripts on the workstation; do not commit them.
+# ---------------------------------------------------------------------------
+
+# Source exports
+AzureAD-export*.csv
+Staff-Roster*.xlsx
+All?Devices*.csv
+Passwordless*.csv
+AD-Disabled-Accounts.csv
+*.xlsx
+*.xls
+
+# Generated artefacts
+AD-Updates.csv
+AD-Name-Mapping-REVIEW.csv
+AD-Exceptions.csv
+AD-Stale-Accounts.csv
+AD-Name-Corrections.csv
+AD-Updates-PILOT-*.csv
+
+# Run logs
+NCStaffSync-*-changes.csv
+NCStaffSync-*-issues.csv
+AccountExpires-*.csv
+
+# Staging directory used to move files to the workstation
+_TRANSFER-TO-SERVER/
+
+# Samples are hand-written with synthetic values and ARE tracked
+!samples/*.SAMPLE.csv
+
+.DS_Store

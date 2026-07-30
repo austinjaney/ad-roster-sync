@@ -1,0 +1,3 @@
+SamAccountName,UserPrincipalName,RosterName,ADDisplayName,Title,Department,Campus,CompanyName,OfficeName,TargetOU,EmployeeType,ManagerSam,ReportsToName,Tier,Confidence,RosterRow
+jexample,jexample@example.org,"Example, Jane",Jane Example,Worship Associate,Worship,Vista,Vista Campus,Vista,Vista,FT,mmanager,Mary Manager,AUTO,100,2
+sspecimen,sspecimen@example.org,"Specimen, Sam",Sam Specimen,Childcare,Childcare,SME,San Marcos Campus,San Marcos,San Marcos,PT,mmanager,Mary Manager,AUTO,96,3

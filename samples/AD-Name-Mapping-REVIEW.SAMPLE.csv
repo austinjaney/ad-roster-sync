@@ -1,0 +1,3 @@
+Approved,RosterRow,RosterName,Campus,TargetOU,Title,Tier,Confidence,MatchVia,MatchedDisplayName,SamAccountName,MatchedUPN,AltCandidates,Notes
+Y,2,"Example, Jane",Vista,Vista,Worship Associate,AUTO,100,UPN:flast,Jane Example,jexample,jexample@example.org,,
+,3,"Specimen, Sam",SME,San Marcos,Childcare,REVIEW,85,spelling:sspecimen~sspeciman,Sam Specimen,sspecimen,sspecimen@example.org,,VERIFY SAME PERSON before approving
