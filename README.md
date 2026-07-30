@@ -41,7 +41,7 @@ scripts/
   Build-ADReconciliation.py      Reads the roster + directory exports, matches people to
                                  accounts, produces an approval CSV and an enriched workbook.
                                  Never touches AD.
-  Sync-ADFromRoster.ps1     Five passes against live AD. Dry run by default,
+  Sync-ADFromRoster.ps1          Five passes against live AD. Dry run by default,
                                  -Commit to write, -RollbackFrom to reverse.
   Export-ADDisabledAccounts.ps1  Read-only. Supplies account state, which an Entra portal
                                  export cannot: it has no accountEnabled column.
